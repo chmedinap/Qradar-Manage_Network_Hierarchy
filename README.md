@@ -37,7 +37,7 @@ I recommend using Excel to create the CSV file and I will leave you a template i
 current network hierarchy.
 - Step 5: Send the new network hierarchy to Qradar.
 - Step 6: Check the new network hierarchy in the Qradar console.
-- Step 7: If everything is OK, you can send a coffee ;)
+- Step 7: If everything is OK, you can send me a coffee ;)
 
 ## API Reference:
 
