@@ -27,6 +27,7 @@ id,group,name,description,cidr,domain_id,country_code
 1,Grupo-1,DMZ,New Network,1.1.1.0/24,1,CO
 ```
 I recommend using Excel to create the CSV file and I will leave you a template in the repository.
+(I did not include the location field because it is optional)
 
 - Step 4: As the API is designed to REPLACE the current network hierarchy, we need to merge the CSV file with the 
 current network hierarchy.
