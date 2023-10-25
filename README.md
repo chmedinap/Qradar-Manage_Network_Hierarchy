@@ -2,8 +2,12 @@
 
 IBM Qradar has been the leading SIEM in the cybersecurity market.
 
-In this repository you will find a script that will allow you to manage the network hierarchy in Qradar using the 
-API. The format of the scripts is Jupyter Notebook and I will do my best to make the code as readable as possible. 
+In this repository you will find a script that will allow you to backup or update the network hierarchy in Qradar using 
+the 
+API. The current way to update the network hierarchy is through the GUI, but if you have a large number of networks 
+this is a nightmare.
+
+The format of the scripts is Jupyter Notebook and I will do my best to make the code as readable as possible. 
 You can feel free to modify the code to your liking.
 
 Everything shown in this repository is for educational purposes, if you want to use them in productive environments you must make sure to do the respective tests before affecting any system.
@@ -29,7 +33,7 @@ id,group,name,description,cidr,domain_id,country_code
 I recommend using Excel to create the CSV file and I will leave you a template in the repository.
 (I did not include the location field because it is optional)
 
-- Step 4: As the API is designed to REPLACE the current network hierarchy, we need to merge the CSV file with the 
+- Step 4: As the API is designed to **REPLACE** the current network hierarchy, we need to merge the CSV file with the 
 current network hierarchy.
 - Step 5: Send the new network hierarchy to Qradar.
 - Step 6: Check the new network hierarchy in the Qradar console.
