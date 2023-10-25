@@ -41,7 +41,7 @@ current network hierarchy.
 
 ## API Reference:
 
-This are the API calls that are used in the script.
+This are the API endpoints that are used in the script.
 
 #### get_network_hierarchy: Retrieves the staged network hierarchy.
 
@@ -84,6 +84,14 @@ Network Hierarchy - A JSON string that contains network_hierarchy objects. this 
 }
 ]
 ```
+GET domains: Retrieves the list of domains.
+
+```https
+   GET - /config/domain_management/domains
+```
+
+
+
 ## Authors
 
 - [@chmedinap](https://www.github.com/chmedinap)
