@@ -90,8 +90,6 @@ Network Hierarchy - A JSON string that contains network_hierarchy objects. this 
    GET - /config/domain_management/domains
 ```
 
-
-
 ## Authors
 
 - [@chmedinap](https://www.github.com/chmedinap)
