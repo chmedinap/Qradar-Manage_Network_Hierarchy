@@ -1,0 +1,9 @@
+﻿id,group,name,description,cidr,domain_id,country_code
+34,Grupo-Cliente-4,Red_4-Cliente-3,Agregado 9,192.168.8.0/24,4,
+35,Grupo-Cliente-4,Red_4-Cliente-3,Agregado 10,192.168.9.0/24,4,
+36,Grupo-Cliente-1,Red_4-Cliente-1,Agregado 11,14.14.14.0/24,1,CA
+37,Grupo-Cliente-1,Red_5-Cliente-1,Agregado 12,15.15.15.0/24,1,
+38,Grupo-Cliente-2,Red_4-Cliente-2,Agregado 13,192.168.10.0/24,2,
+39,Grupo-Cliente-2,Red_5-Cliente-2,Agregado 14,192.168.11.0/24,2,
+40,Grupo-Cliente-3,Red_4-Cliente-2,Agregado 15,192.168.12.0/24,3,
+41,Grupo-Cliente-3,Red_5-Cliente-2,Agregado 16,198.198.198.0/24,3,BR
